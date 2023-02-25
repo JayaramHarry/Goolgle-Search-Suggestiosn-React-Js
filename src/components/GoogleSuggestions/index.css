@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.google-image {
+  height: 80px;
+  width: 250px;
+}
+@media screen and (min-width: 768px) {
+  .google-image {
+    height: 120px;
+    width: 300px;
+  }
+}
+.suggestion-container {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  color: #64748b;
+  font-family: 'Roboto';
+  min-width: 320px;
+  min-height: 100%;
+  margin-top: 20px;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  padding-top: 4px;
+  padding-left: 8px;
+  padding-bottom: 4px;
+  padding-right: 8px;
+}
+.search-img {
+  height: 16px;
+  width: 16px;
+}
+@media screen and (min-width: 768px) {
+  .search-img {
+    height: 24px;
+    width: 24px;
+  }
+}
+.search-input {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  width: 100%;
+  height: 40px;
+  border: none;
+  margin-left: 16px;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .search-input {
+    font-size: 20px;
+    margin-left: 8px;
+  }
+}
